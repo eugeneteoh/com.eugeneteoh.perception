@@ -7,7 +7,7 @@
   },
   "description": "Tools for generating large-scale data sets for perception-based machine learning training and validation",
   "displayName": "Perception",
-  "name": "com.unity.perception",
+  "name": "com.eugeneteoh.perception",
   "samples": [
     {
       "description": "These files accompany the Perception Tutorial, found at https://github.com/Unity-Technologies/com.unity.perception",
@@ -32,5 +32,5 @@
   ],
   "unity": "2021.3",
   "unityRelease": "7f1",
-  "version": "1.0.0-preview.101"
+  "version": "1.0.0"
 }
