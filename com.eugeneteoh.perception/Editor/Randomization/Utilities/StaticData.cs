@@ -11,7 +11,7 @@ namespace UnityEditor.Perception.Randomization
 {
     static class StaticData
     {
-        const string k_RandomizationDir = "Packages/com.unity.perception/Editor/Randomization";
+        const string k_RandomizationDir = "Packages/com.eugeneteoh.perception/Editor/Randomization";
         internal const string uxmlDir = k_RandomizationDir + "/Uxml";
 
         internal static Type[] randomizerTypes;

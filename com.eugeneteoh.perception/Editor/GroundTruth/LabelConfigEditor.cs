@@ -11,7 +11,7 @@ namespace UnityEditor.Perception.GroundTruth
 {
     abstract class LabelConfigEditor<T> : Editor where T : ILabelEntry
     {
-        string m_UxmlDir = "Packages/com.unity.perception/Editor/GroundTruth/Uxml/";
+        string m_UxmlDir = "Packages/com.eugeneteoh.perception/Editor/GroundTruth/Uxml/";
         string m_UxmlPath;
 
         int m_AddedLabelsItemHeight = 37;
@@ -372,7 +372,7 @@ namespace UnityEditor.Perception.GroundTruth
 
     abstract class LabelElementInLabelConfig<T> : VisualElement where T : ILabelEntry
     {
-        protected const string k_UxmlDir = "Packages/com.unity.perception/Editor/GroundTruth/Uxml/";
+        protected const string k_UxmlDir = "Packages/com.eugeneteoh.perception/Editor/GroundTruth/Uxml/";
         protected abstract string UxmlPath { get; }
 
         Button m_RemoveButton;
@@ -451,7 +451,7 @@ namespace UnityEditor.Perception.GroundTruth
 
     class NonPresentLabelElement<T> : VisualElement where T : ILabelEntry
     {
-        string m_UxmlDir = "Packages/com.unity.perception/Editor/GroundTruth/Uxml/";
+        string m_UxmlDir = "Packages/com.eugeneteoh.perception/Editor/GroundTruth/Uxml/";
         public Label label;
 
         public NonPresentLabelElement(LabelConfigEditor<T> editor)

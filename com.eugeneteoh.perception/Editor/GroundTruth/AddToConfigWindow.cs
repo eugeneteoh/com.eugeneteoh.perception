@@ -14,7 +14,7 @@ namespace UnityEditor.Perception.GroundTruth
     {
         VisualElement m_Root;
 
-        const string k_UxmlDir = "Packages/com.unity.perception/Editor/GroundTruth/Uxml/";
+        const string k_UxmlDir = "Packages/com.eugeneteoh.perception/Editor/GroundTruth/Uxml/";
         string m_UxmlPath;
 
         static List<string> s_LabelValues = new List<string>();
@@ -307,7 +307,7 @@ namespace UnityEditor.Perception.GroundTruth
 
     class ConfigElementLabelPresent : VisualElement
     {
-        const string k_UxmlDir = "Packages/com.unity.perception/Editor/GroundTruth/Uxml/";
+        const string k_UxmlDir = "Packages/com.eugeneteoh.perception/Editor/GroundTruth/Uxml/";
 #pragma warning disable 169
         VisualElement m_Root;
         ObjectField m_ConfigObjectField;
@@ -351,7 +351,7 @@ namespace UnityEditor.Perception.GroundTruth
 
     class ConfigElementLabelNotPresent : VisualElement
     {
-        const string k_UxmlDir = "Packages/com.unity.perception/Editor/GroundTruth/Uxml/";
+        const string k_UxmlDir = "Packages/com.eugeneteoh.perception/Editor/GroundTruth/Uxml/";
 #pragma warning disable 169
         VisualElement m_Root;
         ObjectField m_ConfigObjectField;

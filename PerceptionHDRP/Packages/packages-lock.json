@@ -1,5 +1,16 @@
 {
   "dependencies": {
+    "com.eugeneteoh.perception": {
+      "version": "file:../../com.eugeneteoh.perception",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.burst": "1.7.3",
+        "com.unity.collections": "1.4.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.render-pipelines.core": "12.1.7"
+      }
+    },
     "com.unity.burst": {
       "version": "1.7.3",
       "depth": 1,
@@ -28,11 +39,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collections": {
-      "version": "1.2.4",
+      "version": "1.4.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.6.6",
+        "com.unity.nuget.mono-cecil": "1.11.4",
         "com.unity.test-framework": "1.1.31"
       },
       "url": "https://packages.unity.com"
@@ -77,8 +89,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.mono-cecil": {
-      "version": "1.10.1",
-      "depth": 1,
+      "version": "1.11.4",
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -98,17 +110,6 @@
         "com.unity.nuget.mono-cecil": "0.1.6-preview.2"
       },
       "url": "https://packages.unity.com"
-    },
-    "com.unity.perception": {
-      "version": "file:../../com.unity.perception",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.burst": "1.7.3",
-        "com.unity.collections": "1.2.4",
-        "com.unity.nuget.newtonsoft-json": "3.0.2",
-        "com.unity.render-pipelines.core": "12.1.7"
-      }
     },
     "com.unity.render-pipelines.core": {
       "version": "12.1.7",

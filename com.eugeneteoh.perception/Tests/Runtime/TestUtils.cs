@@ -10,7 +10,7 @@ namespace RandomizerTests.Internal
 {
     public static class TestUtils
     {
-        const string k_ResourcesDirectory = "Packages/com.unity.Perception.Internal/Tests/Runtime/Resource";
+        const string k_ResourcesDirectory = "Packages/com.eugeneteoh.perception.Internal/Tests/Runtime/Resource";
         const string k_ScenarioContainerName = "Scenario Container";
         const string k_TagContainerName = "Tag Container";
         const string k_CameraContainerName = "Camera Container";

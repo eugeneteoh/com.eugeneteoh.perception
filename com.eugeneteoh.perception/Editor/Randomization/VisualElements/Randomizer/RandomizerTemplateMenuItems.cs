@@ -4,8 +4,8 @@ namespace UnityEditor.Perception.Randomization
 {
     static class RandomizerTemplateMenuItems
     {
-        internal static readonly string s_PlacementTemplatePath = $"Packages/com.unity.perception/Editor/Randomization/Templates/PlacementRandomizer.template";
-        internal static readonly string s_RandomizerTagTemplatePath = $"Packages/com.unity.perception/Editor/Randomization/Templates/RandomizerTag.template";
+        internal static readonly string s_PlacementTemplatePath = $"Packages/com.eugeneteoh.perception/Editor/Randomization/Templates/PlacementRandomizer.template";
+        internal static readonly string s_RandomizerTagTemplatePath = $"Packages/com.eugeneteoh.perception/Editor/Randomization/Templates/RandomizerTag.template";
 
         [MenuItem("Assets/Create/Perception/C# Randomizer and RandomizerTag")]
         static void MenuCreateRandomizerCSharpScript()

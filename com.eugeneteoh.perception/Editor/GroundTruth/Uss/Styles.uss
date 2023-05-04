@@ -2,7 +2,7 @@
 .labeling__remove-item-button {
     width: 16px;
     height: 16px;
-    background-image: resource('Packages/com.unity.perception/Editor/Icons/X.png');
+    background-image: resource('Packages/com.eugeneteoh.perception/Editor/Icons/X.png');
     background-color: #505050;
     align-self: center;
 }
@@ -143,11 +143,11 @@
     width: 10px;
     height: 10px;
     align-self: center;
-    background-image: resource("Packages/com.unity.perception/Editor/Icons/FoldoutOpen.png");
+    background-image: resource("Packages/com.eugeneteoh.perception/Editor/Icons/FoldoutOpen.png");
 }
 
 .collapsed-toggle-state{
-    background-image: resource("Packages/com.unity.perception/Editor/Icons/FoldoutClosed.png");
+    background-image: resource("Packages/com.eugeneteoh.perception/Editor/Icons/FoldoutClosed.png");
 }
 
 .collapse-toggle:hover {
@@ -199,11 +199,11 @@
 }
 
 .move-up{
-    background-image: resource('Packages/com.unity.perception/Editor/Icons/ChevronUpPadded.png');
+    background-image: resource('Packages/com.eugeneteoh.perception/Editor/Icons/ChevronUpPadded.png');
 }
 
 .move-down{
-    background-image: resource('Packages/com.unity.perception/Editor/Icons/ChevronDownPadded.png');
+    background-image: resource('Packages/com.eugeneteoh.perception/Editor/Icons/ChevronDownPadded.png');
 }
 
 .move-label-in-config-button:hover{

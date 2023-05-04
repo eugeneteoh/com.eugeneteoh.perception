@@ -35,7 +35,7 @@ namespace UnityEditor.Perception.GroundTruth
 
         Labeling m_Labeling;
 
-        string m_UxmlDir = "Packages/com.unity.perception/Editor/GroundTruth/Uxml/";
+        string m_UxmlDir = "Packages/com.eugeneteoh.perception/Editor/GroundTruth/Uxml/";
         string m_UxmlPath;
 
         List<string> m_SuggestedLabelsBasedOnName = new List<string>();
@@ -641,7 +641,7 @@ namespace UnityEditor.Perception.GroundTruth
 
     class AddedLabelEditor : VisualElement
     {
-        string m_UxmlDir = "Packages/com.unity.perception/Editor/GroundTruth/Uxml/";
+        string m_UxmlDir = "Packages/com.eugeneteoh.perception/Editor/GroundTruth/Uxml/";
 
         public TextField labelTextField;
         public int indexInList;
@@ -760,7 +760,7 @@ namespace UnityEditor.Perception.GroundTruth
 
     class SuggestedLabelElement : VisualElement
     {
-        string m_UxmlDir = "Packages/com.unity.perception/Editor/GroundTruth/Uxml/";
+        string m_UxmlDir = "Packages/com.eugeneteoh.perception/Editor/GroundTruth/Uxml/";
         public Label label;
 
         public SuggestedLabelElement(LabelingEditor editor)
@@ -795,7 +795,7 @@ namespace UnityEditor.Perception.GroundTruth
 
     class LabelConfigElement : VisualElement
     {
-        string m_UxmlDir = "Packages/com.unity.perception/Editor/GroundTruth/Uxml/";
+        string m_UxmlDir = "Packages/com.eugeneteoh.perception/Editor/GroundTruth/Uxml/";
         bool m_Collapsed = true;
 
         ListView m_LabelsListView;

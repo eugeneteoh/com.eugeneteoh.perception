@@ -206,6 +206,7 @@ namespace UnityEngine.Perception.GroundTruth
         public bool RemovePersistentSensorData(string key);
         public void RequestCapture();
         public void SetPersistentSensorData(string key, object data);
+        public bool ShouldCaptureThisFrame();
         public bool TryGetChannel<T>(out T channel) where T : Sensors.Channels.CameraChannelBase;
     }
 

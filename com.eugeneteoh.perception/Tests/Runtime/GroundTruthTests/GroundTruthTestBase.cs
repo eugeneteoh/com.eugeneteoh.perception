@@ -19,13 +19,13 @@ namespace GroundTruthTests
     {
         readonly List<string> m_TestScenePaths = new List<string>
         {
-            "Packages/com.unity.perception/Tests/Runtime/TestAssets/AnimatedCubeScene.unity",
-            "Packages/com.unity.perception/Tests/Runtime/TestAssets/NonAnimatedCubeScene.unity",
-            "Packages/com.unity.perception/Tests/Runtime/TestAssets/CubeScene.unity",
-            "Packages/com.unity.perception/Tests/Runtime/TestAssets/UnlitObject.unity",
-            "Packages/com.unity.perception/Tests/Runtime/TestAssets/Keypoint_Null_Check_On_Animator.unity",
-            "Packages/com.unity.perception/Tests/Runtime/TestAssets/Keypoint_Null_Check_On_Animator_Foreground.unity",
-            "Packages/com.unity.perception/Tests/Runtime/TestAssets/AnimatedSkinnedMeshRenderer.unity"
+            "Packages/com.eugeneteoh.perception/Tests/Runtime/TestAssets/AnimatedCubeScene.unity",
+            "Packages/com.eugeneteoh.perception/Tests/Runtime/TestAssets/NonAnimatedCubeScene.unity",
+            "Packages/com.eugeneteoh.perception/Tests/Runtime/TestAssets/CubeScene.unity",
+            "Packages/com.eugeneteoh.perception/Tests/Runtime/TestAssets/UnlitObject.unity",
+            "Packages/com.eugeneteoh.perception/Tests/Runtime/TestAssets/Keypoint_Null_Check_On_Animator.unity",
+            "Packages/com.eugeneteoh.perception/Tests/Runtime/TestAssets/Keypoint_Null_Check_On_Animator_Foreground.unity",
+            "Packages/com.eugeneteoh.perception/Tests/Runtime/TestAssets/AnimatedSkinnedMeshRenderer.unity"
         };
         List<Object> m_ObjectsToDestroy = new List<Object>();
         List<string> m_ScenesToUnload = new List<string>();

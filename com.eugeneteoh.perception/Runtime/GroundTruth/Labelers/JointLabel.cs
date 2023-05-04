@@ -80,7 +80,7 @@ namespace UnityEngine.Perception.GroundTruth
 
         private void OnDrawGizmos()
         {
-            Gizmos.DrawIcon(transform.position, "Packages/com.unity.perception/Editor/Icons/Keypoint.png", false);
+            Gizmos.DrawIcon(transform.position, "Packages/com.eugeneteoh.perception/Editor/Icons/Keypoint.png", false);
         }
 
         private void OnDrawGizmosSelected()

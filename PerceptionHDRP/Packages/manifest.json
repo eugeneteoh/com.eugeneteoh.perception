@@ -7,7 +7,7 @@
     "com.unity.ide.visualstudio": "2.0.16",
     "com.unity.ide.vscode": "1.2.5",
     "com.unity.package-validation-suite": "0.23.8-preview",
-    "com.unity.perception": "file:../../com.unity.perception",
+    "com.eugeneteoh.perception": "file:../../com.eugeneteoh.perception",
     "com.unity.render-pipelines.core": "12.1.7",
     "com.unity.render-pipelines.high-definition": "12.1.7",
     "com.unity.simulation.capture": "0.0.10-preview.24",
@@ -52,6 +52,6 @@
     "com.unity.modules.xr": "1.0.0"
   },
   "testables": [
-    "com.unity.perception"
+    "com.eugeneteoh.perception"
   ]
 }
