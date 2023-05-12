@@ -598,6 +598,12 @@ namespace UnityEngine.Perception.GroundTruth
 
         static void CaptureHierarchy()
         {
+            if (RenderedObjectInfosCalculated == null) {
+                // Fixes memory leak when only RGB/Depth camera in scene.
+                // We should only construct the scene hierarchy if using
+                // semantic segmentation or object detection.
+                return;
+            }
             // multiple perception cameras should not calculate the scene hierarchy multiple times
             // but keep track of how many subscribed so we know when to dispose off the hierarchy information
             if (!savedHierarchies.ContainsKey(Time.frameCount))
