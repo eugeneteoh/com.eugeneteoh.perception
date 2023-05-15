@@ -596,7 +596,7 @@ namespace UnityEngine.Perception.GroundTruth
             }
         }
 
-        static void CaptureHierarchy()
+        void CaptureHierarchy()
         {
             if (RenderedObjectInfosCalculated == null) {
                 // Fixes memory leak when only RGB/Depth camera in scene.
